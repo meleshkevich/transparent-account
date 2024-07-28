@@ -9,7 +9,13 @@ import Typography from '@mui/material/Typography'
 function App() {
   return (
     <>
-      <Typography variant="h4" gutterBottom component="div" align="center">
+      <Typography
+        variant="h4"
+        gutterBottom
+        component="div"
+        align="center"
+        color={'#002C5A;'}
+      >
         Transparent account
       </Typography>
 

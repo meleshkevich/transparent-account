@@ -72,15 +72,33 @@ function Overview({ transactionsResponse }) {
                 <Table size="small" aria-label="purchases">
                   <TableHead>
                     <TableRow>
-                      <TableCell>Booking Date</TableCell>
-                      <TableCell>ownAccountNumber</TableCell>
-                      <TableCell align="right">variableSymbol</TableCell>
-                      <TableCell align="right">specificSymbol</TableCell>
-                      <TableCell align="right">bankref</TableCell>
-                      <TableCell align="right">transactionType</TableCell>
-                      <TableCell align="right">transactionTypeCode</TableCell>
-                      <TableCell align="right">statementNumber</TableCell>
-                      <TableCell align="right">statementPeriod</TableCell>
+                      <TableCell sx={{ fontWeight: 700 }}>
+                        Booking Date
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Account Number
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Variable Symbol
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Specific Symbol
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Bank ref.#
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Transaction Type
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Transaction Type Code
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Statement Number
+                      </TableCell>
+                      <TableCell align="right" sx={{ fontWeight: 700 }}>
+                        Statement Period
+                      </TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
@@ -159,10 +177,16 @@ function Overview({ transactionsResponse }) {
         <TableHead>
           <TableRow>
             <TableCell />
-            <TableCell>Date</TableCell>
-            <TableCell align="right">Amount</TableCell>
-            <TableCell align="right">counterPartyAccount</TableCell>
-            <TableCell align="right">details</TableCell>
+            <TableCell sx={{ fontWeight: 900 }}>Date</TableCell>
+            <TableCell align="right" sx={{ fontWeight: 900 }}>
+              Amount
+            </TableCell>
+            <TableCell align="right" sx={{ fontWeight: 900 }}>
+              Counterparty Account
+            </TableCell>
+            <TableCell align="right" sx={{ fontWeight: 900 }}>
+              Notes
+            </TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
