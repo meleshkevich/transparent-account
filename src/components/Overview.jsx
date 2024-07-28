@@ -26,7 +26,7 @@ function Overview({ transactionsResponse }) {
           <TableCell>
             <Tooltip
               title={
-                open ? 'Close transaction details' : 'Close transaction details'
+                open ? 'Close transaction details' : 'Open transaction details'
               }
               placement="top"
             >

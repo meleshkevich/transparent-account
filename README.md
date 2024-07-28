@@ -1,9 +1,18 @@
-# React + Vite
+### Transparent Account
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is test project to display transparent account bacic data
 
-Currently, two official plugins are available:
+Project uses static data and is created with
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# transparent-account
+- React
+- Vite
+- Material UI
+
+To run this project locally:
+
+clone branch main with `$ git clone https://github.com/meleshkevich/transparent-account` or fork it and then clone it from your forked repo
+`cd transparent-account`
+`npm install`
+`npm run dev`
+
+Alternatively app is [deployed with Netlify](https://ppf-transparent-account.netlify.app);
