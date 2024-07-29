@@ -1,10 +1,10 @@
 import accountsResponse from './data/accountsResponse'
 import balanceResponse from './data/balanceResponse'
 import transactionsResponse from './data/transactionsResponse'
-import './App.css'
 import Overview from './components/Overview'
 import Account from './components/Account'
 import Typography from '@mui/material/Typography'
+import './App.css'
 
 function App() {
   return (
@@ -23,10 +23,7 @@ function App() {
         accountsResponse={accountsResponse}
         balanceResponse={balanceResponse}
       />
-      <Overview
-        accountsResponse={accountsResponse}
-        transactionsResponse={transactionsResponse}
-      />
+      <Overview transactionsResponse={transactionsResponse} />
     </>
   )
 }

@@ -5,7 +5,6 @@ import Logo from '../assets/logo.svg'
 import PropTypes from 'prop-types'
 
 function Account({ accountsResponse, balanceResponse }) {
-  // refactor this correctly!!
   const account = accountsResponse[0]
 
   return (
